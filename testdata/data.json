@@ -1,0 +1,23 @@
+{
+  "Verify_Title_TC01": {
+    "title": "vtiger CRM - Commercial Open Source CRM"
+  },
+
+  "Verify_invalidlogin_TC03": {
+    "username": "admin",
+    "password": "admin123"
+  },
+
+   "Verify_validlogin_TC04": {
+    "username": "admin",
+    "password": "admin"
+  },
+  
+    "Verify_createleadwithmandatoryfield_TC05": {
+    "username": "admin",
+    "password": "admin",
+    "lastname": "smith",
+    "company" : "Google"
+  }
+
+}

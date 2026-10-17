@@ -1,0 +1,6 @@
+TC Name,title,username,password lastname ,,company
+Verify_Title_TC01,vtiger CRM - Commercial Open Source CRM,,,,
+Verify_invalidlogin_TC03,,admin,admin123,,
+Verify_validlogin_TC04,,admin,admin,,
+Verify_createleadwithmandatoryfield_TC05,,admin,admin,smith,Google
+ 
