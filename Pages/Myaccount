@@ -1,0 +1,13 @@
+import { test, expect } from '@playwright/test';
+
+//DragnDrop
+test('Mosue Movement', async ({ page }) => {
+await page.locator("//a[text()='My Account']").click();
+ await page.waitForTimeout(5000);
+ await page.locator("//input[@value=' Customize Tab ']").click();
+ await page.waitForTimeout(5000);
+ await page.dragAndDrop("#cl2", "#cl5")
+  await page.waitForTimeout(5000);
+ let x = await page.locator("#cl5").textContent();
+ console.log(x);
+});
